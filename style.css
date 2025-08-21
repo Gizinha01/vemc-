@@ -7,7 +7,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color:black;
+    background-color: black;
 }
 
 #logo {
@@ -33,8 +33,8 @@ header {
 }
 
 .nav_item {
-font-size: 25px;
-color: white;
+    font-size: 25px;
+    color: white;
 }
 
 .nav_item:hover {
@@ -43,266 +43,22 @@ color: white;
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+}
+
+section {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+}
+
+.titulo {
+    font-size: 4rem;
+    color: white;
+}
+
+.titulo {
+    color: blueviolet;
+}
