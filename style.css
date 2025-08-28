@@ -8,6 +8,11 @@ header {
     width: 100%;
     padding: 20px 8%;
     background-color: black;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+
 }
 
 #logo {
@@ -35,31 +40,32 @@ header {
 .nav_item {
     font-size: 25px;
     color: white;
-}
+    cursor: pointer;
+    transition: all 0.3s ease;
 
-.nav_item:hover {
-    background-color: white;
-    color: black;
-    text-decoration: underline;
-}
+    .nav_item:hover {
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+    }
 
-.home {
-    display: flex;
-    min-height: calc(100vh - 91px);
-}
+    .home {
+        display: flex;
+        min-height: calc(100vh - 91px);
+    }
 
-section {
-    width: 100%;
-    padding: 20px 8%;
-    display: flex;
-}
+    section {
+        width: 100%;
+        padding: 20px 8%;
+        display: flex;
+    }
 
-.titulo {
-    font-size: 4rem;
-    color: white;
-    justify-content: center;
-}
+    .titulo {
+        font-size: 4rem;
+        color: white;
+        justify-content: center;
+    }
 
-.titulo {
-    color: blueviolet;
-}
+    .titulo {
+        color: blueviolet;
+    }
