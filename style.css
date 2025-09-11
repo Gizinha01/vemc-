@@ -61,12 +61,14 @@ section {
     width: 100%;
     padding: 20px 8%;
     display: flex;
+    justify-content: center;
 }
 
 .titulo {
     font-size: 4rem;
     color: white;
     justify-content: center;
+    width: 100%;
 }
 
 .titulo {
