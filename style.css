@@ -24,7 +24,7 @@ header {
 
 .navbar {
     width: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,33 +43,36 @@ header {
     cursor: pointer;
     transition: all 0.3s ease;
 
-    .nav_item:hover {
-        background-color: white;
-        color: black;
-        text-decoration: underline;
-    }
+}
 
-    .home {
-        display: flex;
-        min-height: calc(100vh - 91px);
-        margin-top: 91px;
-    }
+.nav_item:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
 
-    section {
-        width: 100%;
-        padding: 20px 8%;
-        display: flex;
-    }
+.home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    margin-top: 91px;
+}
 
-    .titulo {
-        font-size: 4rem;
-        color: white;
-        justify-content: center;
-    }
+section {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+}
 
-    .titulo {
-        color: blueviolet;
-    }
+.titulo {
+    font-size: 4rem;
+    color: white;
+    justify-content: center;
+}
+
+.titulo {
+    color: blueviolet;
+}
+
 /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
@@ -93,15 +96,15 @@ header {
     header {
         padding: 15px 5%;
     }
-    
+
     #logo {
         font-size: 1.2rem;
     }
-    
+
     .menu-toggle {
         display: flex;
     }
-    
+
     .nav_lista {
         position: fixed;
         top: 70px;
@@ -116,26 +119,26 @@ header {
         gap: 30px;
         transition: left 0.3s ease;
     }
-    
+
     .nav_lista.active {
         left: 0;
     }
-    
+
     .nav_item {
         font-size: 20px;
         padding: 10px 20px;
         border-radius: 5px;
     }
-    
+
     /* Animação do menu hambúrguer */
     .menu-toggle.active span:nth-child(1) {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
-    
+
     .menu-toggle.active span:nth-child(2) {
         opacity: 0;
     }
-    
+
     .menu-toggle.active span:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
     }
@@ -145,11 +148,11 @@ header {
     header {
         padding: 10px 3%;
     }
-    
+
     #logo {
         font-size: 1rem;
     }
-    
+
     .nav_item {
         font-size: 18px;
     }
@@ -165,7 +168,7 @@ header {
 
         text-align: center;
     }
-    
+
     section {
         padding: 20px 5%;
     }
@@ -175,9 +178,8 @@ header {
     .titulo {
         font-size: 2rem;
     }
-    
+
     section {
         padding: 20px 3%;
     }
-}
 }
