@@ -24,7 +24,7 @@ header {
 
 .navbar {
     width: 100%;
-    font-size: 50px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,3 +69,19 @@ header {
     .titulo {
         color: blueviolet;
     }
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+
+}
+
+    .menu-toggle span {
+width: 25px;
+height: 3px;
+background-color: cadetblue;
+ margin: 3px 0;
+ transition: 0.3s;
+}
