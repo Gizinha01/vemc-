@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
+:root {
+    --cor-primaria-1: #E0AAFF ;
+    --cor-primaria-2: #C77DFF ;
+    --cor-primaria-3: #9D4EDD ;
+    --cor-primaria-4: #7B2CBF ;
+    --cor-primaria-5: #5A189A ;
+    --cor-primaria-6:#3C096C  ;
+    --cor-primaria-7: #240046 ;
+    --cor-primaria-8: #10002B ;
+}
+
 * {
     margin: 0;
     padding: 0;
