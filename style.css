@@ -21,7 +21,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: black;
+    background-color: var(--cor-primaria-4);
     position: fixed;
     top: 0%;
     left: 0%;
@@ -63,7 +63,7 @@ header {
 
 .nav_item:hover {
     background-color: white;
-    color: black;
+    color: var(--cor-primaria-1);
     text-decoration: underline;
 }
 
