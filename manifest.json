@@ -4,7 +4,7 @@
   "description": "A melhor seleção de músicas de Maravilha",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#C7EF00",
+  "background_color": "#5A189A",
   "theme_color": "#C7EF00",
   "orientation": "portrait-primary",
   "icons": [
